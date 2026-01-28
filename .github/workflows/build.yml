@@ -30,7 +30,7 @@ jobs:
 
     - name: APK Oluştur (Sihirli Komut)
       run: |
-        flet build apk --verbose
+        yes | flet build apk --verbose
 
     - name: APK'yı Kaydet
       uses: actions/upload-artifact@v4
